@@ -1,31 +1,92 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>GROR DEX</title>
-  <link rel="stylesheet" href="assets/styles.css" />
-  <script defer src="js/wallet.js"></script>
-  <script defer src="js/chart.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GROR Token - Official Site</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0e1d14;
+      color: #e0ffe0;
+      line-height: 1.6;
+      padding: 10px;
+    }
+    header {
+      background-color: #1f4029;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #8fff7d;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .token-info {
+      background-color: #203822;
+      border-left: 5px solid #8fff7d;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f4029;
+      color: #8fff7d;
+      font-size: 14px;
+    }
+    a {
+      color: #8fff7d;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <img src="assets/logo.png" alt="GROR Logo" class="logo" />
-    <button id="connect-btn">Connect Wallet</button>
+    <img src="logo.png" alt="GROR Logo" width="150" style="margin-bottom: 10px;" />
+    <h1>GROR Token</h1>
+    <p>The Green Rock Token for Blockchain Gaming</p>
   </header>
-  <main>
-    <section id="swap-panel">
-      <h2>Swap GROR ↔ TON</h2>
-      <div id="price">ราคา: — TON</div>
-      <input type="number" id="amount" placeholder="จำนวน GROR" />
-      <button id="swap-btn">Swap</button>
-    </section>
-    <section id="chart-section">
-      <h3>กราฟราคา (24H)</h3>
-      <canvas id="priceChart"></canvas>
-    </section>
-    <section id="liquidity-section">
-      <button id="add-liquidity-btn">➕ Add Liquidity</button>
-    </section>
-  </main>
+
+  <div class="container">
+    <div class="section token-info">
+      <h2>About GROR</h2>
+      <p>
+        GROR is a utility token designed for in-game transactions within a blockchain-based survival game. It allows players to craft items, buy resources, and trade assets in a secure and decentralized ecosystem.
+      </p>
+      <p><strong>Total Supply:</strong> 989,999,998,800,849 GROR</p>
+      <p><strong>Token Address:</strong> <code>EQA05ldNfLOBQHZ9L2KJnQbUZZu_r8EURiAoEqn_CWcIQTui</code></p>
+    </div>
+
+    <div class="section">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="GROR_Whitepaper.pdf" target="_blank">Download Whitepaper (PDF)</a></li>
+        <li><a href="https://dyor.io/token/EQA05ldNfLOBQHZ9L2KJnQbUZZu_r8EURiAoEqn_CWcIQTui" target="_blank">View on DYOR.io</a></li>
+        <li><a href="https://ston.fi" target="_blank">Trade on Ston.fi</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Community</h2>
+      <p>Join us on social media:</p>
+      <ul>
+        <li><a href="#">Telegram (Coming Soon)</a></li>
+        <li><a href="#">Twitter (Coming Soon)</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 GROR Token. All rights reserved.
+  </footer>
 </body>
 </html>
